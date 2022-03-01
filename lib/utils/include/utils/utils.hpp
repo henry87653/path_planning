@@ -1,6 +1,6 @@
 /**
  * @file utils.hpp
- * @author vss2sn
+ * @author sjtu
  * @brief Contains common/commonly used funtions and classes
  */
 

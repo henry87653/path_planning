@@ -1,6 +1,6 @@
 /**
  * @file test_utils.cpp
- * @author vss2sn
+ * @author sjtu
  * @brief Contains the util functions for testing
  */
 

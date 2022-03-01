@@ -1,6 +1,6 @@
 /**
  * @file a_star.cpp
- * @author vss2sn
+ * @author sjtu
  * @brief Contains the AStar class
  */
 

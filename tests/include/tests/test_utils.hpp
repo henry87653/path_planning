@@ -1,6 +1,6 @@
 /**
  * @file test_utils.hpp
- * @author vss2sn
+ * @author sjtu
  * @brief Contains the test utils
  */
 

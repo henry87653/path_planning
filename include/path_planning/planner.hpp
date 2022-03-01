@@ -1,6 +1,6 @@
 /**
  * @file planner.hpp
- * @author vss2sn
+ * @author sjtu
  * @brief Contains the abstract planner class
  */
 

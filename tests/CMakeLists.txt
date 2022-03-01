@@ -16,7 +16,7 @@ target_include_directories(test_utils PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
 target_sources(test_utils PRIVATE src/test_utils.cpp)
 set_target_properties(test_utils
   PROPERTIES
-    CXX_STANDARD 20
+    CXX_STANDARD 17
     CXX_STANDARD_REQUIRED YES
     CXX_EXTENSIONS NO
     CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -Wall -Werror -g"
@@ -28,7 +28,7 @@ function(add_test_file TEST_SOURCE)
   add_executable( ${test_output_file} )
   set_target_properties(${test_output_file}
     PROPERTIES
-      CXX_STANDARD 20
+      CXX_STANDARD 17
       CXX_STANDARD_REQUIRED YES
       CXX_EXTENSIONS NO
       CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -Wall -Werror -g"
